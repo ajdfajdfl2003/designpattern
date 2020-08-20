@@ -11,5 +11,13 @@ public class Buy {
         ticket.addToCart(0);
 
         ticket.addToCart(1);
+        System.out.println("======divider=====");
+        shopping.fsm.Ticket ticketA = new shopping.fsm.Ticket(0);
+        ticketA.printTicket();
+
+        ticketA.addToCart(0);
+        ticketA.addToCart(0);
+
+        ticketA.addToCart(1);
     }
 }
