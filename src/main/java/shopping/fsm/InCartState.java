@@ -12,7 +12,7 @@ public class InCartState implements State {
             System.out.println("You have already added this ticket to your cart.");
             return true;
         } else {
-            System.out.println("This ticket has been added by someone.");
+            System.out.println("This ticket has been added by someone");
             return false;
         }
     }
